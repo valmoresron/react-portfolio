@@ -1,6 +1,6 @@
 div#profile-picture {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
 }
 
 div#profile-picture img {
@@ -8,5 +8,4 @@ div#profile-picture img {
   height: 100%;
   border: 5px solid white;
   border-radius: 50%;
-  translate: 0 -30%;
 }

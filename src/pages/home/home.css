@@ -1,3 +1,7 @@
 div#home div.top-cover {
   height: 20vh;
 }
+
+div#home div.body {
+  translate: 0 -30%;
+}
