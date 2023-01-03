@@ -25,7 +25,9 @@ export default function ProfileCard() {
                 src={phRoundFlag}
                 alt="philippines-flag"
               />
-              <Text size={400}>Cagayan de Oro, Philippines</Text>
+              <Text size={400}>
+                <span>Cagayan de Oro, Philippines</span>
+              </Text>
             </section>
           </div>
 

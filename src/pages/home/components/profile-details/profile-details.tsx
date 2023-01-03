@@ -1,6 +1,6 @@
 import "./profile-details.css";
 
-import { Divider, Text } from "@fluentui/react-components";
+import { Divider, Text, Button } from "@fluentui/react-components";
 
 const experienceParagraphs: string[] = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel solutaexpedita cupiditate molestiae quisquam optio doloremque molestias",
@@ -37,12 +37,19 @@ export default function ProfileDetails() {
         </Text>
       </header>
       <section>
-        {aboutMeParagraphs.map((paragraph, i) => (
+        {aboutMeParagraphs.slice(0, 1).map((paragraph, i) => (
           <Text key={i} block className="mb-2" align="justify">
             <span className="text-muted">{paragraph}</span>
           </Text>
         ))}
       </section>
+      <div>
+        <Button appearance="transparent" className="btn-readmore">
+          <Text size={200} weight="semibold">
+            <span>Read more</span>
+          </Text>
+        </Button>
+      </div>
     </div>
   );
 }

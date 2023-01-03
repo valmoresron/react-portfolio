@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <div className="container mt-5">
-          <div className="row">
+          <div className="row gx-5">
             <div className="col-7">
               <ProfileDetails />
             </div>

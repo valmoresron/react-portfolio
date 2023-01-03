@@ -6,7 +6,7 @@ export default function ProfileName() {
   return (
     <div id="profile-name">
       <Text block weight="medium" size={600}>
-        Francis Valmores
+        Ron Valmores
       </Text>
       <Text>
         <span className="text-muted">Web Developer</span>
