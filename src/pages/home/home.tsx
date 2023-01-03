@@ -5,6 +5,7 @@ import ProfilePicture from "./components/profile-picture/profile-picture";
 import ProfileName from "./components/profile-name/profile-name";
 import ProfileLinks from "./components/profile-links/profile-links";
 import ProfileDetails from "./components/profile-details/profile-details";
+import ProfileCard from "./components/profile-card/profile-card";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
           <div className="row">
             <div className="col-7">
               <ProfileDetails />
+            </div>
+            <div className="col-5">
+              <ProfileCard />
             </div>
           </div>
         </div>
