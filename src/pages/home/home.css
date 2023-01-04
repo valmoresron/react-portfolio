@@ -1,0 +1,7 @@
+div#home div.top-cover {
+  height: 170px;
+}
+
+div#home div.body {
+  translate: 0 -45px;
+}

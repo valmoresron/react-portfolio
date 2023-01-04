@@ -1,0 +1,16 @@
+div#profile-card img.flag-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+div#profile-card span.link::after {
+  margin-left: 5px;
+  content: "\2197";
+  vertical-align: -5%;
+}
+
+div#profile-card address {
+  font-style: normal;
+}

@@ -1,0 +1,4 @@
+div#profile-details button.btn-readmore {
+  padding: 0;
+  min-width: 0 !important;
+}

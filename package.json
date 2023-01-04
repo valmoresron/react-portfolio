@@ -1,14 +1,22 @@
 {
   "name": "react-portfolio",
+  "version": "1.0.0",
+  "author": {
+    "name": "Francis Daniel Valmores",
+    "email": "valmoresron@gmail.com"
+  },
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fluentui/react-components": "^9.7.4",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
