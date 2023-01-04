@@ -12,3 +12,7 @@
 .hidden {
   display: none !important;
 }
+
+html {
+  background-color: rgb(212, 212, 212);
+}
