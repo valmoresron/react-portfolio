@@ -67,8 +67,11 @@ export default function Technologies() {
       <section>
         <div className="row g-4">
           {technologies.map((tech, i) => (
-            <div className="col-3" key={i}>
-              <Card>
+            <div
+              className="mb-4 col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3"
+              key={i}
+            >
+              <Card size="small">
                 <CardPreview>
                   <div className="d-flex align-items-center justify-content-center py-2 bg-light preview-logo-container">
                     <img

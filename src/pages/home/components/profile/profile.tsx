@@ -23,7 +23,7 @@ export default function Profile() {
 
       <div className="container mt-5">
         <div className="row gx-5">
-          <div className="col-7">
+          <div className="col-xs-12 col-md-6 col-lg-7">
             <div className="mb-4">
               <ProfileDetails />
             </div>
@@ -34,7 +34,7 @@ export default function Profile() {
               <Technologies />
             </div>
           </div>
-          <div className="col-5">
+          <div className="col-xs-12 col-md-6 col-lg-5">
             <ProfileCard />
           </div>
         </div>

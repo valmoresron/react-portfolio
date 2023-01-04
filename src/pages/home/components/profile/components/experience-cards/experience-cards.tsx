@@ -25,11 +25,11 @@ const experiences: Experience[] = [
 export default function ExperienceCards() {
   return (
     <div id="experience-cards">
-      <div className="row">
-        <div className="col-5">
+      <div className="row g-3">
+        <div className="col-xs-12 col-sm-6 col-md-9 col-xl-5">
           <ExperienceCard experience={experiences[0]} />
         </div>
-        <div className="col-5">
+        <div className="col-xs-12 col-sm-6 col-md-9  col-xl-5">
           <ExperienceCard experience={experiences[1]} />
         </div>
       </div>
