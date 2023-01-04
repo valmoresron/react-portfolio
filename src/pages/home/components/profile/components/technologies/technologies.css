@@ -1,0 +1,8 @@
+div#technologies img.preview-logo {
+  width: 100px;
+  height: 100px;
+}
+
+div#technologies div.preview-logo-container {
+  background-color: red;
+}

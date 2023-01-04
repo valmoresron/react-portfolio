@@ -6,6 +6,7 @@ import ProfileLinks from "./components/profile-links/profile-links";
 import ProfileDetails from "./components/profile-details/profile-details";
 import ProfileCard from "./components/profile-card/profile-card";
 import ExperienceCards from "./components/experience-cards/experience-cards";
+import Technologies from "./components/technologies/technologies";
 
 export default function Profile() {
   return (
@@ -26,8 +27,11 @@ export default function Profile() {
             <div className="mb-4">
               <ProfileDetails />
             </div>
-            <div>
+            <div className="mb-5">
               <ExperienceCards />
+            </div>
+            <div>
+              <Technologies />
             </div>
           </div>
           <div className="col-5">
