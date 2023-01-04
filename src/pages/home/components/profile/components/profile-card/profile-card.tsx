@@ -1,5 +1,5 @@
 import "./profile-card.css";
-import phRoundFlag from "../../../../assets/images/icons/ph-flag-round.webp";
+import phRoundFlag from "../../../../../../assets/images/icons/ph-flag-round.webp";
 
 import { useState } from "react";
 import { Card } from "@fluentui/react-components/unstable";

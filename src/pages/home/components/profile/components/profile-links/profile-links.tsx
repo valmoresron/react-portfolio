@@ -1,6 +1,6 @@
 import "./profile-links.css";
-import githubLogo from "../../../../assets/images/logos/github-logo.svg";
-import linkedInLogo from "../../../../assets/images/logos/linkedin-logo.svg";
+import githubLogo from "../../../../../../assets/images/logos/github-logo.svg";
+import linkedInLogo from "../../../../../../assets/images/logos/linkedin-logo.svg";
 
 import { Button } from "@fluentui/react-components";
 
