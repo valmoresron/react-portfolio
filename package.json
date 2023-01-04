@@ -1,7 +1,11 @@
 {
   "name": "react-portfolio",
+  "version": "1.0.0",
+  "author": {
+    "name": "Francis Daniel Valmores",
+    "email": "valmoresron@gmail.com"
+  },
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
