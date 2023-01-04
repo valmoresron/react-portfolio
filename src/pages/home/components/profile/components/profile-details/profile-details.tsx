@@ -4,12 +4,10 @@ import { useState } from "react";
 import { Divider, Text, Button } from "@fluentui/react-components";
 
 const experienceParagraphs: string[] = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel solutaexpedita cupiditate molestiae quisquam optio doloremque molestias",
+  "I specialize in Frontend Development, implementing UI/UX designs for the web.",
 ];
 const aboutMeParagraphs: string[] = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa magna, tincidunt non facilisis pulvinar, interdum quis enim. Nunc ex erat, lacinia a mattis a, tempus a felis.",
-  "Phasellus suscipit porta egestas. Ut facilisis vestibulum imperdiet. Mauris quis ex elit. Mauris et maximus mauris. Suspendisse orci tortor, porttitor eget mauris quis, tempus suscipit libero. Aenean aliquam varius lobortis. Etiam imperdiet hendrerit risus in mattis.",
-  "Curabitur ultricies tortor odio, non semper enim porttitor at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed malesuada, purus ut tristique commodo, dolor lorem mollis enim, sit amet volutpat lorem libero et orci. Quisque bibendum velit eu dui placerat vulputate. Cras sit amet risus ultrices, efficitur lectus at, viverra sapien. Cras ullamcorper metus vitae turpis feugiat faucibus vel et odio. Aenean vitae enim id est euismod congue. Duis tristique nibh a porta commodo. Nullam sapien leo, gravida a mattis consectetur, ultricies vel augue. Integer id mi in velit eleifend sagittis vel nec neque. Morbi sed orci semper, iaculis dui nec, imperdiet eros. Nam feugiat odio vitae est accumsan, eget condimentum dui ullamcorper. Aenean vel lorem sit amet metus tincidunt facilisis.",
+  "I'm a Web Developer based in the Philippines. I've been in the industry for more than 4 years and I'm always striving to grow and learn something new.",
 ];
 
 export default function ProfileDetails() {

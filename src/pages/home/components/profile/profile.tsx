@@ -7,6 +7,7 @@ import ProfileDetails from "./components/profile-details/profile-details";
 import ProfileCard from "./components/profile-card/profile-card";
 import ExperienceCards from "./components/experience-cards/experience-cards";
 import Technologies from "./components/technologies/technologies";
+import { Divider } from "@fluentui/react-components";
 
 export default function Profile() {
   return (
@@ -27,9 +28,15 @@ export default function Profile() {
             <div className="mb-4">
               <ProfileDetails />
             </div>
-            <div className="mb-5">
+
+            <div>
               <ExperienceCards />
             </div>
+
+            <div className="my-5">
+              <Divider />
+            </div>
+
             <div>
               <Technologies />
             </div>
