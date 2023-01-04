@@ -5,6 +5,7 @@ import ProfileName from "./components/profile-name/profile-name";
 import ProfileLinks from "./components/profile-links/profile-links";
 import ProfileDetails from "./components/profile-details/profile-details";
 import ProfileCard from "./components/profile-card/profile-card";
+import ExperienceCards from "./components/experience-cards/experience-cards";
 
 export default function Profile() {
   return (
@@ -22,7 +23,12 @@ export default function Profile() {
       <div className="container mt-5">
         <div className="row gx-5">
           <div className="col-7">
-            <ProfileDetails />
+            <div className="mb-4">
+              <ProfileDetails />
+            </div>
+            <div>
+              <ExperienceCards />
+            </div>
           </div>
           <div className="col-5">
             <ProfileCard />
